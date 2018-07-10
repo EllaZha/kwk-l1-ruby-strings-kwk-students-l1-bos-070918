@@ -17,4 +17,4 @@ time = gets.chomp
 puts "Who's the host?"
 host_name = gets.chomp
 
-Dear #{guest_name}
+puts "Dear #{guest_name}, you are 
