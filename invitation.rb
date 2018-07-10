@@ -14,5 +14,7 @@ date = gets.chomp
 puts "When does the party start?"
 time = gets.chomp
 
-puts ""
+puts "Who's the host?"
 host_name = gets.chomp
+
+Dear #{guest_name}
