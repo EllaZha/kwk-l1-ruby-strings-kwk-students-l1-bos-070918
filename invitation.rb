@@ -2,11 +2,17 @@
 
 # Try starting out with puts'ing a string.
 
-puts "Hello there, you're invited to my party"
+puts "Hello, what is your name?"
 guest_name = gets.chomp.capitalize
 
-puts ""
+puts "What is the occasion for the party?"
 party_name = gets.chomp.
 
-puts "What date is the party?"
+puts "what is the date of this party?"
 date = gets.chomp
+
+puts "When does the party start?"
+time = gets.chomp
+
+puts ""
+host_name = gets.chomp
